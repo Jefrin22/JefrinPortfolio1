@@ -1,0 +1,598 @@
+#aboutUs,
+#cards {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+html,
+* {
+    scroll-behavior: smooth;
+}
+
+.topHead {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(191, 191, 191);
+}
+
+.icon {
+    background-color: red;
+    color: black;
+}
+
+.icon1 {
+    color: rgb(191, 191, 191);
+}
+
+.bgnav {
+    background-color: #000;
+}
+
+.bg-nav {
+    background-color: #242423;
+}
+
+#nav {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 99999 !important;
+}
+
+#nav .textwhite {
+    color: rgb(191, 191, 191) !important;
+    padding: 15px;
+}
+
+#nav .active {
+    background-color: red;
+}
+
+#nav .navbar {
+    padding: 0 !important;
+}
+
+.backToTop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 20 !important;
+}
+
+.backToTop i {
+    background-color: red;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+#bacimg {
+    background-image: linear-gradient(to right bottom, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)), url(./images/hero1-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
+    z-index: 45;
+}
+
+#bacimg .bannerText {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100vh;
+    color: #fff;
+}
+
+#bacimg h2 {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+#bacimg p {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#bacimg .sub:hover {
+    background-color: red !important;
+    cursor: pointer;
+}
+
+#aboutUs i,
+#cards i {
+    color: red;
+    font-size: 18px;
+}
+
+#aboutUs p,
+#cards p {
+    color: #575757;
+}
+
+#cards .cards {
+    box-shadow: 4px 4px 10px rgb(208, 208, 208), -4px -4px 10px rgb(208, 208, 208);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#cards h3 {
+    color: #ff6a6a;
+    font-weight: bold;
+}
+
+#cards p {
+    font-size: 12px;
+    color: rgb(124, 124, 124);
+    margin: 20px 0;
+}
+
+#services {
+    background-color: #dfdfdf;
+}
+
+#services img {
+    padding: 30px;
+    filter: grayscale(1);
+}
+
+#services img:hover {
+    filter: grayscale(0);
+    transform: scaleX(1.2);
+}
+
+#servicesMaterials .absolute {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#servicesMaterials .absolute .textBack {
+    position: absolute;
+    opacity: 0.1;
+    font-size: 50px;
+    left: 42%;
+    font-weight: 900;
+}
+
+#servicesMaterials .absolute .textfront {
+    position: absolute;
+    top: 20px;
+    left: 45%;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+#servicesMaterials .ser {
+    box-shadow: 4px 4px 10px rgb(208, 208, 208), -4px -4px 10px rgb(208, 208, 208);
+    transition: all 0.5s;
+}
+
+#servicesMaterials .ser:hover {
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#servicesMaterials .ser:hover .sericon {
+    background-color: #fff;
+    color: red;
+}
+
+#servicesMaterials .ser:hover p {
+    color: #fff;
+}
+
+#servicesMaterials .ser:hover .top {
+    transform: translatey(-10px);
+    transition: all 0.5s;
+}
+
+#servicesMaterials .sericon {
+    box-shadow: -7px -7px 2px rgb(255, 148, 148);
+    font-size: 35px;
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+}
+
+#servicesMaterials p {
+    font-size: 14px;
+    color: gray;
+}
+
+.actionimg {
+    background-image: linear-gradient(to right bottom, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)), url(./images/cta-bg.jpg);
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.actionimg .callText {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 45vh;
+}
+
+.actionimg .sub:hover {
+    background-color: red !important;
+    cursor: pointer;
+}
+
+#portfolio .absolute {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#portfolio .absolute .textBack {
+    position: absolute;
+    opacity: 0.1;
+    font-size: 50px;
+    left: 42%;
+    font-weight: 900;
+}
+
+#portfolio .absolute .textfront {
+    position: absolute;
+    top: 20px;
+    left: 45%;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+#portfolio .tab .nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
+
+.nav-tabs .nav-link {
+    border: none !important;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: red;
+}
+
+.fade {
+    opacity: 0;
+    transition: opacity 1s cubic-bezier(0.89, 0.77, 0, 0.34);
+}
+
+.overlay {
+    position: absolute;
+    content: " ";
+    background: #d7d7d7;
+    bottom: 35px;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.img:hover .overlay {
+    opacity: 1;
+    transform: translatey(-10px);
+    transition: 0.5s;
+}
+
+.offer {
+    position: relative;
+}
+
+.offer .dollar {
+    position: absolute;
+    top: 10px;
+    color: red;
+}
+
+.offer .rs {
+    position: relative;
+    font-size: 40px;
+    color: red;
+    left: 10px;
+}
+
+.offer .month {
+    position: relative;
+    left: 10px;
+}
+
+#pricing .absolute {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#pricing .absolute .textBack {
+    position: absolute;
+    opacity: 0.1;
+    font-size: 50px;
+    left: 42%;
+    font-weight: 900;
+}
+
+#pricing .absolute .textfront {
+    position: absolute;
+    top: 20px;
+    left: 45%;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+#pricing .line {
+    text-decoration: line-through;
+}
+
+#pricing .boxShadow {
+    box-shadow: 4px 4px 10px rgb(208, 208, 208), -4px -4px 10px rgb(208, 208, 208);
+}
+
+#pricing .bg-red,
+#pricing .btn-red {
+    background-color: red;
+    color: #fff;
+}
+
+#pricing .btn-lightred {
+    background-color: rgb(255, 137, 137);
+}
+
+#pricing .btn-lightred:hover {
+    background-color: #fff;
+    color: red;
+}
+
+#teams .absolute {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#teams .absolute .textBack {
+    position: absolute;
+    opacity: 0.1;
+    font-size: 50px;
+    left: 42%;
+    font-weight: 900;
+}
+
+#teams .absolute .textfront {
+    position: absolute;
+    top: 20px;
+    left: 45%;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+#teams .boxShadow {
+    box-shadow: 4px 4px 10px rgb(208, 208, 208), -4px -4px 10px rgb(208, 208, 208);
+}
+
+#teams p {
+    font-size: 14px;
+    color: gray;
+}
+
+#teams i {
+    color: gray;
+}
+
+#teams i:hover {
+    color: red;
+    cursor: pointer;
+}
+
+#contact2 .absolute {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#contact2 .absolute .textBack {
+    position: absolute;
+    opacity: 0.1;
+    font-size: 50px;
+    left: 42%;
+    font-weight: 900;
+}
+
+#contact2 .absolute .textfront {
+    position: absolute;
+    top: 20px;
+    left: 45%;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+#contact2 .boxShadow {
+    box-shadow: 4px 4px 10px rgb(208, 208, 208), -4px -4px 10px rgb(208, 208, 208);
+    margin-bottom: 10px;
+}
+
+#contact2 .dotted {
+    border: 2px dotted red;
+    border-radius: 50%;
+    padding: 10px;
+    color: red !important;
+    font-size: 25px;
+}
+
+#contact2 h3,
+#contact2 p {
+    color: gray !important;
+}
+
+#contact2 .btn-red {
+    background-color: red;
+}
+
+.bgBlack {
+    background-color: black;
+}
+
+.bgBlack .bgLight {
+    background-color: rgb(29, 29, 29);
+    color: rgb(194, 194, 194);
+}
+
+.bgBlack span {
+    color: #fff;
+}
+
+.bgBlack .light {
+    color: gray;
+}
+
+.bgBlack .fa-chevron-right {
+    color: red;
+    font-weight: 900;
+}
+
+.bgBlack .marBottom {
+    border-bottom: 2px solid gray;
+}
+
+.bgBlack .boderbottom {
+    border-top: 8px solid red;
+}
+
+.bgBlack .rel {
+    position: relative;
+}
+
+.bgBlack .rel .subscribe {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    border-radius: 0 !important;
+}
+
+.bgBlack .links:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.bgBlack .btn-red {
+    background-color: red;
+}
+
+.section-title {
+    text-align: center;
+    padding: 30px px 0;
+    position: relative;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #191919;
+    position: relative;
+    z-index: 2;
+}
+
+.section-title p {
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.section-title span {
+    position: absolute;
+    top: 0px;
+    color: #f4f4f4;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 0;
+}
+
+@media (max-width: 425px) {
+    #portfolio .absolute .textBack {
+        position: absolute;
+        opacity: 0.1;
+        font-size: 50px;
+        left: 12%;
+        font-weight: 900;
+    }
+
+    #portfolio .absolute .textfront {
+        left: 20%;
+    }
+
+    #servicesMaterials .absolute .textfront {
+        left: 38%;
+    }
+
+    #servicesMaterials .absolute .textBack {
+        left: 30%;
+    }
+
+    #pricing .absolute .textBack {
+        left: 22%;
+    }
+
+    #pricing .absolute .textfront {
+        left: 31%;
+    }
+
+    #pricing .absolute .textfront {
+        left: 22%;
+    }
+
+    #teams .absolute .textfront {
+        left: 31%;
+    }
+
+    #contact2 .absolute .textBack {
+        left: 22%;
+    }
+
+    #contact2 .absolute .textfront {
+        left: 31%;
+        color: #000 !important;
+    }
+
+    #bacimg {
+        background-position: center bottom;
+        background-attachment: local;
+    }
+}

@@ -1,0 +1,538 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+
+    <!-- 555 -->
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div class="container-fluid white">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light white">
+                <a class="navbar-brand" href="#">
+
+                    <h3 class="pt-3 d-flex"><img class="logo pt-0" src="./images/logo.png" alt=""> <strong
+                            class="logoText">HOSTO</strong> </h3>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="alink  nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="alink nav-link" href="#">Layouts</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="alink nav-link" href="#">Elements</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="alink nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="alink nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="alink nav-link" href="#">Contact Us</a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Banner Section -->
+    <div class="banner">
+        <div class="container">
+
+            <div class="row pt-2 pb-2">
+                <div class=" col-lg-6 col-md-6 col col-sm-12 ">
+                    <h2 class="text-left yc">Yoga club</h2>
+                </div>
+                <div class=" col-lg-6 col-md-6 col col-sm-12 text-right ">
+                    <input class="text-right" type="search">
+                </div>
+            </div>
+
+            <!-- TABS -->
+
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-md-12 col pb-5">
+                    <ul class="nav nav-tabs bg-dark d-flex" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">Main Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">About our club</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                aria-controls="contact" aria-selected="false">Our teachers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                aria-controls="contact" aria-selected="false">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                aria-controls="contact" aria-selected="false">Latest news and events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                aria-controls="contact" aria-selected="false">contact us</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content " id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <img 
+                                src="https://images.unsplash.com/photo-1616699002805-0741e1e4a9c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                                width="100%" height="450px" alt="">
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"></div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div class="container-fluid pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4  col-md-4 col-sm-12 col bg-services">
+                    <div class="text-center text-white pt-5 pb-5">
+                        <i class="serIcon iconBac fa-regular fa-thumbs-up"></i> <br> Mobile
+                        <h2>
+                            Secure & Reliable
+                        </h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus sequi, maxime assumenda
+                            aliquam odio consequuntur beatae eligendi iusto tenetur delectus sed sapiente molestias
+                            explicabo iste quo dicta saepe earum dignissimos? Placeat facere deserunt officia ut?</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 bg-services2">
+                    <div class="text-center text-white pt-5 pb-5">
+                        <i class="serIcon iconBac2 fa-solid fa-rocket"></i>
+                        <h2>Quick & Super Fast</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia itaque rerum accusantium
+                            totam quidem error eligendi adipisci libero, eius accusamus voluptatem quisquam consectetur
+                            odio aliquid corporis fugiat recusandae laboriosam aut, consequatur aperiam esse. Provident,
+                            nesciunt?</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 bg-services3">
+                    <div class="text-center text-white pt-5 pb-5">
+                        <i class="serIcon iconBac3 fa-regular fa-comments"></i>
+                        <h2>Customer Support</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vitae quidem explicabo
+                            vel magnam officia quasi illo minus at eum! Porro atque suscipit tenetur, illum labore vero
+                            cupiditate, est magni quidem distinctio fugit blanditiis quos!</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Hosts Plans card -->
+
+    <div class="container-fluid bg-gray pt-5 pb-5">
+        <div class="container bg-gray pb-5 ">
+
+
+            <div class="text-center">
+                <h4 class="dark">Hosto <span class="light">Plans</span>& <span class="light">Pricing</span></h4>
+                <p class="planp">Our Hosting plans in details.Chose the right plan for you</p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6 col-sm-12 pb-5 col   ">
+                    <div class=" card text-white bg-light text-dark " style=" max-width: 18rem;">
+                        <div class="card-header green text-center"><strong>Web Hosting</strong></div>
+                        <div class="card-body linear">
+
+                            <div class="rate">
+                                <span class="smk">$ </span> <span></span> 4. <sup>45</sup> <sub
+                                    class="small">/month</sub>
+                            </div>
+
+
+
+                        </div>
+
+                        <ul>
+                            <li><span class="bold"><i class="fa-solid fa-check text-success"></i> 10GB</span> Storage
+                            </li>
+                            <li><span class="bold"><i class="fa-solid fa-check text-success"></i> 15GB</span>Bandwidth
+                            </li>
+                            <li><span class="bold"><i class="fa-solid fa-check text-success"></i> Unlimited</span>FTP &
+                                Email</li>
+                            <li><span class="bold"><i class="fa-solid fa-check text-success"></i> Free</span>Domain</li>
+
+                        </ul>
+                        <div class="card-footer green text-center "><strong> Sign Up Now</strong></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 pb-5">
+                    <div class="card text-white bg-light text-dark " style="max-width: 18rem;">
+                        <div class="card-header green  text-center"><strong>Web Hosting</strong></div>
+                        <div class="card-body linear">
+
+                            <div class="rate">
+                                <span class="smk">$ </span> <span></span> 4. <sup>45</sup> <sub
+                                    class="small">/month</sub>
+                            </div>
+
+
+
+                        </div>
+
+                        <ul>
+                            <li><span class="bold"><i class="fa-solid fa-check text-success"></i> 10GB</span> Storage
+                            </li>
+                            <li><span class="bold"><i class="fa-solid fa-check text-success"></i> 15GB</span>Bandwidth
+                            </li>
+                            <li><span class="bold"><i class="fa-solid fa-check text-success"></i> Unlimited</span>FTP &
+                                Email</li>
+                            <li><span class="bold"><i class="fa-solid fa-check text-success"></i> Free</span>Domain</li>
+
+                        </ul>
+                        <div class="card-footer green text-center "><strong> Sign Up Now</strong></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 pb-5">
+                    <div class="card text-white bg-light text-dark " style="max-width: 18rem;">
+                        <div class="card-header green text-center"><strong>Web Hosting</strong></div>
+                        <div class="card-body linear">
+
+                            <div class="rate">
+                                <span class="smk">$ </span> <span></span> 4. <sup>45</sup> <sub
+                                    class="small">/month</sub>
+                            </div>
+
+
+
+                        </div>
+
+                        <ul>
+                            <li><span class="bold"><i class="fa-solid fa-check text-success"></i> 10GB</span> Storage
+                            </li>
+                            <li><span class="bold"><i class="fa-solid fa-check text-success"></i> 15GB</span>Bandwidth
+                            </li>
+                            <li><span class="bold"><i class="fa-solid fa-check text-success"></i> Unlimited</span>FTP &
+                                Email</li>
+                            <li><span class="bold"><i class="fa-solid fa-check text-success"></i> Free</span>Domain</li>
+
+                        </ul>
+                        <div class="card-footer green text-center "><strong> Sign Up Now</strong></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 pb-5">
+                    <div class="card text-white bg-light text-dark " style="max-width: 18rem;">
+                        <div class="card-header green2 text-center"><strong>Web Hosting</strong></div>
+                        <div class="card-body linear">
+
+                            <div class="rate">
+                                <span class="smk">$ </span> <span></span> 4. <sup>45</sup> <sub
+                                    class="small">/month</sub>
+                            </div>
+
+
+
+                        </div>
+
+                        <ul>
+                            <li><span class="bold"><i class="fa-solid fa-check text-success"></i> 10GB</span> Storage
+                            </li>
+                            <li><span class="bold"><i class="fa-solid fa-check text-success"></i> 15GB</span>Bandwidth
+                            </li>
+                            <li><span class="bold"><i class="fa-solid fa-check text-success"></i> Unlimited</span>FTP &
+                                Email</li>
+                            <li><span class="bold"><i class="fa-solid fa-check text-success"></i> Free</span>Domain</li>
+
+                        </ul>
+                        <div class="card-footer green2 text-center "><strong> Sign Up Now</strong></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+        <!-- Key Features -->
+
+        <div class="container-fluid bg-boder ">
+            <div class="container">
+                <div class="text-center">
+                    <h4 class="dark">Key Features Of <span class="light">Hosto</span></h4>
+                    <p class="planp">Our Hosting plans in details.Chose the right plan for you</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 pt-5 pb-5 text-center">
+                        <h2 class="pb-3 ycc">Toning the entire body</h2>
+                        <img class="rounded-circle mb-5"
+                            src="https://images.unsplash.com/photo-1549576490-b0b4831ef60a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHlvZ2F8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                            width="80%" height="200px" alt="">
+
+                        <p> <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit</strong> Molestiae itaque
+                            unde ad suscipit fugit, quidem </p>
+
+                        <hr class="boder-b">
+
+                        <strong>
+                            Lorem ipsum dolor sit amet
+                        </strong> consectetur adipisicing elit. Beatae iure cumque maiores hic. Vero illo
+
+
+                        <div>
+                            <button class="btn btn-success mt-5" type="button">More Info</button>
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 pt-5 pb-5 text-center">
+                        <h2 class="pb-3 ycc">Toning the entire body</h2>
+                        <img class="rounded-circle mb-5"
+                            src="https://images.unsplash.com/photo-1616699002805-0741e1e4a9c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                            width="80%" height="200px" alt="">
+
+                        <p> <strong>Lorem ipsum dolor sit amet</strong> consectetur adipisicing elit. Molestiae itaque
+                            unde ad suscipit fugit, quidem </p>
+
+
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae iure cumque maiores hic. Vero
+                        illo
+
+
+                        <div>
+                            <button class="btn btn-success mt-5" type="button">More Info</button>
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 pt-5 pb-5 text-center">
+                        <h2 class="pb-3 ycc">Toning the entire body</h2>
+                        <img class="rounded-circle mb-5"
+                            src="https://images.unsplash.com/photo-1620134280013-e756c46affc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzF8fHlvZ2F8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                            width="80%" height="200px" alt="">
+
+                        <p> <span class="lightText">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                            Molestiae itaque unde ad suscipit fugit, quidem </p>
+
+
+
+                        <span class="lightText">Lorem ipsum dolor sit amet,</span> consectetur adipisicing elit. Beatae
+                        iure cumque maiores hic. Vero illo
+                        <div>
+                            <button class="btn btn-success mt-5" type="button">More Info</button>
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 pt-5 pb-5 text-center">
+                        <h2 class="pb-3 ycc">Toning the entire body</h2>
+                        <img class="rounded-circle mb-5"
+                            src="https://images.unsplash.com/photo-1592895792095-85fa785192a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODF8fHlvZ2F8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                            width="80%" height="200px" alt="">
+
+                        <p> <strong>Lorem ipsum dolor sit amet consectetur adipisicing</strong> elit. Molestiae itaque
+                            unde ad suscipit fugit, quidem </p>
+
+                        <hr class="boder-b">
+
+                        <strong>Lorem ipsum dolor sit amet </strong> , consectetur adipisicing elit. Beatae iure cumque
+                        maiores hic. Vero illo
+                        <div>
+                            <button class="btn btn-success mt-5" type="button">More Info</button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Langauges -->
+
+        <div class="container-fluid pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3 col-sm-6 pt-3 pb-3 img-boder">
+                        <img class=" " src="https://www.kindpng.com/picc/m/23-237508_html5-imagem-de-html-5-hd-png-download.png"
+                            width="100%" height="100vh" alt="">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 pt-3 pb-3 img-boder">
+                        <img class="r img-fluid" src="https://wallpapercave.com/wp/wp2742472.jpg" width="100%" height="100vh" alt="">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 pt-3 pb-3 img-boder">
+                        <img class=" img-fluid" src="https://us.123rf.com/450wm/wikagraphic/wikagraphic2011/wikagraphic201130562/159405373-initial-letter-js-logotype-company-name-colored-blue-swoosh-design-concept-vector-logo-for-business-.jpg?ver=6"
+                            width="100%" height="100vh" alt="">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 pt-3 pb-3 img-boder">
+                        <img class=" img-fluid" src="https://toppng.com/uploads/preview/jquery-logo-vector-115739557123qrvlkptfh.jpg"
+                            width="100%" height="100vh" alt="">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 pt-3 pb-3 img-boder">
+                        <img class=" img-fluid" src="https://jquery-plugins.net/image/plugin/bootstrap-4-the-most-popular-html-css-and-js-library.jpg"
+                            width="100%" height="100vh" alt="">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 pt-3 pb-3 img-boder">
+                        <img class="  img-fluid" src="https://www.kindpng.com/picc/m/151-1512624_php-logo-transparent-hd-png-download.png"
+                            width="100%" height="100vh" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+
+        <div class="container-fluid pb-5 pt-5 bg-dark footer">
+            <div class="container bg-dark ">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <h5 class="pb-4">About Us</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, error.</p>
+
+                        <ul>
+                            <li><i class="lig fa-solid fa-house-chimney"></i>  33301 Pallavaram Chennai</li>
+                            <li><i class="lig fa-solid fa-phone"></i>  +1 123 456 789</li>
+                            <li><i class="lig fa-solid fa-envelope-open-text"></i><a href="#">  info@mk.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-12">
+                        <h5 class="pb-4">Navigation </h5>
+                        <ul>
+                            <li><i class="fa-solid fa-right-long"></i>  Web Hoisting</li>
+                            <li><i class="fa-solid fa-right-long"></i>  Reseller hoisting</li>
+                            <li><i class="fa-solid fa-right-long"></i>  Features</li>
+                            <li><i class="fa-solid fa-right-long"></i>  VPS Hosting</li>
+                            <li><i class="fa-solid fa-right-long"></i>  Dedicated Servers</li>
+                            <li><i class="fa-solid fa-right-long"></i>  Domain Registration</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-12">
+                        <h5 class="pb-4">Useful Links</h5>
+                        <ul>
+                            <li><i class="fa-solid fa-right-long"></i>  Proin</li>
+                            <li><i class="fa-solid fa-right-long"></i>  Velit</li>
+                            <li><i class="fa-solid fa-right-long"></i>  Aenean</li>
+                            <li><i class="fa-solid fa-right-long"></i>  Lorem</li>
+                            <li><i class="fa-solid fa-right-long"></i>  Dolar</li>
+                            <li><i class="fa-solid fa-right-long"></i>  Ssit</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-12">
+                        <h5 class="pb-4">Resent Posts</h5>
+                        <ul>
+                            <li><i class="fa-solid fa-right-long"></i>  Home</li>
+                            <li><i class="fa-solid fa-right-long"></i>  About</li>
+                            <li><i class="fa-solid fa-right-long"></i>  Features</li>
+                            <li><i class="fa-solid fa-right-long"></i>  Blog</li>
+                            <li><i class="fa-solid fa-right-long"></i>  Workss</li>
+                            <li><i class="fa-solid fa-right-long"></i>  Contacts</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                        <h5 class="pb-4">Tags</h5>
+                        <button class="btn mb-2 p-0 btn-col" type="button">Business</button>
+                        <button class="btn mb-2 p-0 btn-col" type="button">
+                            Corporate
+                        </button>
+                        <button class="btn mb-2 p-0 btn-col" type="button">
+                            Portfolio
+                        </button>
+                        <button class="btn mb-2 p-0 btn-col" type="button">
+                            Work
+                        </button>
+                        <button class="btn mb-2 p-0 btn-col" type="button">
+                            Clean
+                        </button>
+                        <button class="btn mb-2 p-0 btn-col" type="button">
+                            Template
+                        </button>
+                        <button class="btn mb-2 p-0 btn-col" type="button">
+                            Wordpress
+                        </button>
+                        <button class="btn  mb-2 p-0 btn-col" type="button">
+                            Joomla
+                        </button>
+                        <button class="btn  mb-2 p-0 btn-col" type="button">
+                            Drupal
+                        </button>
+                        <button class="btn  mb-2 p-0 btn-col" type="button">
+                            Grow
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+
+        <div class="container-fluid bg-dark">
+            <div class="container bg-dark">
+                Copyright@mk.mail.com
+
+                <div class="text-right">
+                    <ul class="d-flex foot">
+                        <li><i class="pr-2 fa-brands fa-alipay"></i></li> 
+                        <li><i class="pr-2 fa-solid fa-address-book"></i></li>
+                        <li><i class="pr-2 fa-brands fa-adversal"></i></li>
+                        <li><i class="pr-2 fa-solid fa-archway"></i></li>
+                        <li><i class="pr-2 fa-solid fa-arrow-up-short-wide"></i></li>
+                        <li><i class="pr-2 fa-solid fa-bacteria"></i></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootatrap JS CDN -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
